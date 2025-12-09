@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+/* Contenedor cajas */
+.contenedor {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    width: 100%;
+}
+
+/* colores */
+.naranja {  
+    width: 200px;
+    height: 200px;
+    background-color: #ff9900;
+} 
+
+.amarilla {   
+    width: 200px;
+    height: 200px; 
+    background-color: #ffcc00;
+    flex-grow: 2; 
+} 
+
+.azul {  
+    width: 200px;
+    height: 200px; 
+    background-color: #00ccff;
+    flex-grow: 15;
+ } 
+
+.claro {  
+    width: 200px;
+    height: 200px;
+    background-color: #0066ff;
+    flex-shrink: 1;
+ } 
+
+.oscuro {  
+    width: 200px;
+    height: 200px; 
+    background-color:blue; }
+
+.negro {  
+    width: 200px;
+    height: 200px; 
+    background-color:rgb(13, 13, 138); }
+
+/* Enlaces */
+.enlaces {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.enlaces a {
+    color: greenyellow;
+    font-size:25px;
+    text-decoration: none;
+}
+
+/* Pseudoclases */
+.enlaces a:hover {
+    color: red;
+}
+
+.enlaces a:visited {
+    color: purple;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+
+}

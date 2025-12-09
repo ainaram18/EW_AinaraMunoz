@@ -21,7 +21,7 @@ h2{
     padding: 10px;
 }
 
-main{
+.caja1{
       width: 600px;
       height: 60px;
       margin-left: 250px;
@@ -29,19 +29,30 @@ main{
       background-color: white;
       border: solid 2px black;
 }
-main:hover{
+.caja1:hover{
     background-color:mediumslateblue;
 }
-.act18:hover{
+a:hover{
     color: white;
 }
 
-.act18{
+a{
     margin-left: 15px;
      font-size: 25px;
      text-decoration: none;
      color: black;
+}
 
+.caja2{
+     width: 600px;
+      height: 60px;
+      margin-left: 250px;
+      padding-top:25px;
+      background-color: white;
+      border: solid 2px black;
+}
+.caja2:hover{
+    background-color:mediumslateblue;
 }
 
 
