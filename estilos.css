@@ -54,5 +54,15 @@ a{
 .caja2:hover{
     background-color:mediumslateblue;
 }
-
+.caja3{
+     width: 600px;
+      height: 60px;
+      margin-left: 250px;
+      padding-top:25px;
+      background-color: white;
+      border: solid 2px black;
+}
+.caja3:hover{
+    background-color:mediumslateblue;
+}
 
