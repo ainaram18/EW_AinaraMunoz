@@ -1,0 +1,23 @@
+
+header{
+    width:80vw ;
+    height:70vh;
+    background-color:gray;
+    margin: 0 auto;
+}
+.cuadro1{
+    width:60vw ;
+    height:30vh;
+    background-color:fuchsia;
+}
+
+.cuadro2{
+    width:20vw ;
+    height:30vh;
+    background-color:greenyellow;
+}
+.pie{
+    width:80vw ;
+    height:10vh;
+    background-color: red;
+}
