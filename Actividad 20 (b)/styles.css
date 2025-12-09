@@ -29,14 +29,14 @@
     width: 200px;
     height: 200px; 
     background-color: #00ccff;
-    flex-grow: 15;
+    flex-shrink: 15;
  } 
 
 .claro {  
     width: 200px;
     height: 200px;
     background-color: #0066ff;
-    flex-shrink: 1;
+    flex-grow: 1;
  } 
 
 .oscuro {  
