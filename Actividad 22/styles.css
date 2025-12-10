@@ -1,0 +1,26 @@
+
+*{
+    margin: 0 auto;
+    padding: 0 auto ;
+    box-sizing: border-box;
+}
+
+header {   
+    
+    display: flex;        
+    width: 90vw;                     
+    height: 100vh;
+    border: solid black 1px; 
+    justify-content: center;  
+                  
+}
+
+/* Clase nombres */
+
+.nombres{
+
+    background-color: magenta;
+    margin: 15px;                  
+    padding: 5px;  
+    text-align: center;
+}

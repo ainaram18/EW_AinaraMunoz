@@ -21,7 +21,7 @@ h2{
     padding: 10px;
 }
 
-.caja1{
+.caja{
       width: 600px;
       height: 60px;
       margin-left: 250px;
@@ -29,7 +29,7 @@ h2{
       background-color: white;
       border: solid 2px black;
 }
-.caja1:hover{
+.caja:hover{
     background-color:mediumslateblue;
 }
 a:hover{
@@ -43,26 +43,4 @@ a{
      color: black;
 }
 
-.caja2{
-     width: 600px;
-      height: 60px;
-      margin-left: 250px;
-      padding-top:25px;
-      background-color: white;
-      border: solid 2px black;
-}
-.caja2:hover{
-    background-color:mediumslateblue;
-}
-.caja3{
-     width: 600px;
-      height: 60px;
-      margin-left: 250px;
-      padding-top:25px;
-      background-color: white;
-      border: solid 2px black;
-}
-.caja3:hover{
-    background-color:mediumslateblue;
-}
 
