@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 30px;
+}
+
+.fotos{
+    width: 220px;
+}
+
+.fotos img{
+    width: 100%;
+    height: 220px;
+    filter: grayscale(100%) ;
+}
+
+.fotos img:hover{
+    filter: none ;
+}
+
+h2{
+    margin-top: 15px;
+    font-family: "Story Script", cursive;
+    font-size: 26px;
+}
+
+main{
+  margin: 60px;
+
+}
+
+a{
+   padding: 18px 40px;
+   background-color: yellow;
+   color: blueviolet;
+   border: 2px solid orange;
+   font-size: 18px;
+   font-family: Roboto, sans-serif;
+   
+}
+
+a :hover{
+    background-color: gold;
+}
