@@ -1,0 +1,44 @@
+ * {
+    margin: 0;
+    text-align: center;
+    align-items: center;
+ }
+
+header {
+    width: 80%;
+    padding: 20px;
+     margin: 40px auto;
+    text-align: center;
+ }
+
+ img{
+      width: 800px;
+      border-radius: 10px
+ }
+
+ h1 {
+    font-family: "Ballet", cursive;
+    font-size: 90px;
+    color: black;
+    text-decoration: none;
+ }
+
+h1 a{
+    text-decoration: none;
+     color: black;
+}
+h1 a:hover{
+    text-decoration: none;
+     color: coral;
+}
+p {
+    font-size: 30px;
+}
+
+        
+
+
+    
+        
+
+   
