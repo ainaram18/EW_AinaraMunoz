@@ -1,0 +1,110 @@
+* {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      padding: 20px;
+      text-align: center;
+      font-family: 'Chewy', cursive;
+      font-size: 40px;
+    }
+
+    p{
+        font-size: 10px;
+        color: red;
+        margin: 5px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+
+    nav a {
+        width: 100px;
+        text-align: center;
+        font-size: 12px;
+        margin-left: 25px;
+    }
+
+    .caja1{
+        width: 100px;
+        height: 40px;
+        background-color: red;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .productos {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .producto {
+      width: 150px;
+      height: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-family: 'Chewy', cursive;
+    }
+
+    .azul { background-color:blue; color: white;}
+    .fucsia { background-color:fuchsia; color: white;}
+    .amarillo { background-color:yellow; }
+    .verde { background-color:green; color: white;}
+
+    .azul:hover {
+      transform: translate(10px, 10px);
+      border: blue 2px solid ;
+      background-color: white;
+    }
+
+    .fucsia:hover {
+      transform: translate(10px, -10px);
+      border: fuchsia 2px solid ;
+      background-color: white;
+    }
+
+    .amarillo:hover {
+      transform: translate(-10px, 10px);
+      border: yellow 2px solid ;
+      background-color: white;
+    }
+
+    .verde:hover {
+      transform: translate(-10px, -10px);
+      border: green 2px solid ;
+      background-color: white;
+    }
+
+     iframe{
+        width: 500px;
+        height: 350px;
+        margin-top: 20px;
+       margin-left: 20px;
+    }
+
+    .caja{
+         width: 550px;
+         height: 390px;
+         margin-top: 20px;
+         border: red solid 2px;
+         transform: translate(150px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+    }
+    
+    img {
+      width: 800px;
+    }
