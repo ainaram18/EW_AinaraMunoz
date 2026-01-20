@@ -58,7 +58,7 @@
 
     .azul { background-color:blue; color: white;}
     .fucsia { background-color:fuchsia; color: white;}
-    .amarillo { background-color:yellow; }
+    .amarillo { background-color:yellow; color: white;}
     .verde { background-color:green; color: white;}
 
     .azul:hover {
