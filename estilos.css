@@ -22,14 +22,15 @@ h2{
 }
 
 nav{
+    width:100% ;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+
     align-items: center;
 }
 
 .caja{
-      width: 600px;
+      width: 500px;
       height: 60px;
       margin-left: 170px;
       padding-top:25px;
