@@ -21,17 +21,28 @@ h2{
     padding: 10px;
 }
 
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .caja{
       width: 600px;
       height: 60px;
-      margin-left: 250px;
+      margin-left: 170px;
       padding-top:25px;
       background-color: white;
       border: solid 2px black;
 }
+
 .caja:hover{
-    background-color:mediumslateblue;
+    background-color:royalblue;
+    transform: translate(10px, -10px);
+    border: white 2px solid ;
 }
+
 a:hover{
     color: white;
 }

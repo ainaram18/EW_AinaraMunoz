@@ -1,0 +1,76 @@
+
+header{
+
+font-size: 40px;
+font-family: "new-astro", sans-serif;
+padding: 30px;
+
+}
+
+nav{
+    width: 90%;
+    height: 30px;
+    margin: 0 auto 50px;
+    background-color: #e84b3c;
+    display: flex;
+    text-align: center;
+}
+
+a{
+    font-size: 30px;
+    font-family: "alight-slab", sans-serif;
+    text-decoration: none;
+    margin-left: 450px;
+    text-align: center;
+    color: white;
+}
+
+
+.Rebajas{
+    width: 100%;
+    margin-top: 20px;
+}
+
+p{
+    font-size: 80px;
+    text-align: center;
+    font-family: "alight-slab", sans-serif;
+    margin-top: 20px;
+}
+
+.fondo{
+    width: 95%;
+    background-size: cover;
+
+}
+
+
+.productos{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(img/Fondo.webp) ;
+    background-size: cover;
+    margin: 0 auto;
+}
+img{width: 250px;}
+
+footer{
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2{
+    font-family:  "alight-slab", sans-serif;
+     color: #e84b3c;
+}
+
+h3{
+    font-family:  "alight-slab", sans-serif;
+     color: #e84b3c;
+}
+
