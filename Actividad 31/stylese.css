@@ -1,0 +1,129 @@
+*{
+align-items: center; 
+margin: 0;
+padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    background-color: white;
+}
+
+ul{
+    width: 95%;
+    height: 50px;
+    margin: 20px;
+    background-color: white;
+    border: solid black 2px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
+
+.barra{
+   text-decoration: none;
+   color:black;
+   font-family: "baga", sans-serif;
+}
+
+.lin1 :hover{
+  background-color:rgb(109, 65, 20);
+  color: white;
+  font-size: 18px;
+}
+
+
+.lin2{
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+    background-color:black;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
+
+.barra2{
+   text-decoration: none;
+   color: white;
+   font-family: "forager", sans-serif;
+}
+
+.lin2 :hover{
+    background-color:chocolate;
+}
+
+.fila{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.fila2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+h1{
+font-size: 20px;
+text-align: center;
+}
+
+figcaption{
+font-size: 12px;
+text-align: center;
+font-family: "forager", sans-serif;
+}
+
+h2{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+      font-family: "baga", sans-serif;
+} 
+
+.cosas{
+   text-decoration: none;
+   color:black;
+   font-size: 12px;
+    font-family: "baga", sans-serif;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    ul{
+    align-items: center;
+    flex-direction: column;
+    height: 80px;
+    width: 90%;
+    background-color:rgb(109, 65, 20) ;
+  }
+  .barra{
+    color: white;
+  }
+
+ .lin2{
+    height: 80px;
+ }
+
+ .fila, .fila2{
+    flex-direction: column;  
+    margin-top: 20px;
+  }
+
+  figcaption{
+    margin-bottom: 30px;
+  }
+
+
+}
