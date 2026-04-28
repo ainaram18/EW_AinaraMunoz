@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    width: 80vw;
+    margin: auto;
+    margin-top: 4vw;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-areas: "header header" "nav section" "footer footer";
+}
+
+header, nav, section, footer{
+    border: solid blue 0.2vw;
+} 
+
+header{
+    grid-area: header;
+    text-align: center;
+    color: blue;
+    padding: 2vw;
+}
+h1{
+    font-size:2vw;
+}
+
+nav{
+    grid-area: nav;
+    padding: 2vw;
+}
+
+section{
+    grid-area: section;
+    padding: 3vw;
+}
+
+footer{
+    grid-area: footer;
+    text-align: center;
+    padding: 2vw;
+    background-color: blue;
+}
+h5{
+    color: white;
+}
