@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    width: 80vw;
+    margin: auto;
+    margin-top: 4vw;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-areas: "header header" "nav section" "footer footer";
+}
+
+header, nav, section, footer{
+    border: solid blue 0.2vw;
+} 
+
+header{
+    grid-area: header;
+    text-align: center;
+    color: blue;
+    padding: 2vw;
+}
+
+header img{
+    width: 20vw;
+}
+
+nav{
+    grid-area: nav;
+    padding: 2vw;
+}
+
+nav div {
+    width: 7vw;
+    background-color: orangered;
+    border: solid blue 1px;
+    text-align: center;
+    font-size: 1.5vw;
+    padding: 2vw;
+    margin-top: 2vw; 
+}
+
+section{
+    grid-area: section;
+    padding: 1.5vw;
+}
+
+section img{
+    width: 60vw;
+}
+
+footer{
+    display: grid;
+    grid-area: footer;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    padding: 2vw;
+}
+footer div img{
+    width: 10vw;
+    padding: 3vw;
+}
+
+.logo1{
+    grid-row:1/3;
+    border: solid blue 0.2vw;
+    text-align: center;
+}
+.logo2{
+   border: solid blue 0.2vw;
+   text-align: center;
+}
+.logo3{
+    border: solid blue 0.2vw;
+    text-align: center;
+}
+.logo4{
+    border: solid blue 0.2vw;
+    text-align: center;
+}
+.logo5{
+    border: solid blue 0.2vw;
+    text-align: center;
+}
+.logo6{
+    border: solid blue 0.2vw;
+    text-align: center;
+}
+.logo7{
+    border: solid blue 0.2vw;
+    text-align: center;
+}
+.logo8{
+    border: solid blue 0.2vw;
+    text-align: center;
+}
+.texto{
+    background-color: blue;
+    color: white;
+    padding: 4vw;
+    grid-column: 1/4;
+    text-align: center;
+}
+h5{color:cornflowerblue; font-size: 2vw;}
