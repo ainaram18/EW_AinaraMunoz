@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%; 
+    font-family: "nouvelle-vague", sans-serif;
+    grid-template-areas: "header nav nav nav"
+                         "imagenes imagenes imagenes imagenes" 
+                         "section section section section" 
+                         "plantas plantas plantas texto" 
+                         "footer footer footer footer";
+    margin: 2vw;
+}
+
+header{
+    grid-area: header;
+}
+header img{
+    width: 100%;
+}
+
+nav{
+    grid-area: nav;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+    margin-top: 2vw;
+    font-size: 2vw;
+}
+
+.imagenes{
+    grid-area: imagenes;
+    display: flex;
+    margin-top: 3vw;
+}
+.imagenes img{
+    width: 80%;
+    margin-left: 3vw;
+}
+
+.imagenes h3{
+    color: #65880f;
+    text-align: center;
+}
+
+section{
+    grid-area: section;
+    display: grid;
+    background-color: #65880f;
+    text-align: center;
+    margin-top: 5vw;
+}
+
+section h1{
+    padding: 2vw;
+}
+
+.plantas{
+    grid-area: plantas;
+    display: flex;
+    margin-top: 3vw;
+    justify-content: space-around;
+}
+
+.plantas img{
+    width: 40%;
+}
+
+.texto{
+    grid-area: texto;
+    color: #65880f;
+    text-align: center;
+    margin-top: 15vw;
+    margin-right: 4vw;
+}
+
+footer{
+    grid-area: footer;
+    background-color: #65880f;
+    margin-top: 5vw;
+    padding: 3vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p{
+    border: solid 1px white;
+    padding: 3vw;
+    color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .imagenes{
+        flex-direction: column;
+    }
+    .imagenes img{
+        margin-left: 10vw;
+        margin-top: 5vw;
+    }
+
+    section h1{
+        font-size: 4vw;
+    }
+
+    .plantas{
+        flex-direction: column;
+        margin-left: 30vw;
+    }
+
+    .texto{
+        display: none;
+    }
+
+    footer{
+        margin-top: 5vw;
+        flex-direction: column;
+        padding: 20vw;
+        font-size: 2vw;
+    }
+
+    footer p{
+        margin-top: 2vw;
+    }
+}
+  
+
+
+
+
+
+
+
+
